@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'League Spartan','sans-serif';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+
+}
+
+.Container{
+    width: 90%;
+
+}
+
+h1{
+    color: black;
+    opacity: 0.75;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+.display-container{
+ position: relative;
+ background-color: violet; 
+ border-radius: 1rem;
+ border-bottom: 0.35 solid var(--lt-violet-2);
+ margin: 1 rem 0;
+ padding-top: 0.35rem;  
+
+}
+
+.input-container{
+    width: 100%;
+    background-color:transparent ;
+}
+
+
+
